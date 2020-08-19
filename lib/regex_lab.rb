@@ -2,7 +2,7 @@ def starts_with_a_vowel?(word)
 if /\b[aeiouAEIOU]/
   true
 end
-else
+elsif
   false
 end
 end
