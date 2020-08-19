@@ -18,8 +18,7 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(text)
 if text.scan(/\W[A-Z]\W/)
   true
-elsif
-text.scan(/[a-z]\b\S/)
+elsif text.scan(/[a-z]\b\S/)
   false
 end
 end
