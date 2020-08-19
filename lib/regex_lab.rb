@@ -3,6 +3,7 @@ if /\b[aeiouAEIOU]/
   true
 end
 else
+  false
 end
 end
 
