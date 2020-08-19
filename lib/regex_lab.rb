@@ -2,10 +2,6 @@ def starts_with_a_vowel?(word)
 if /\b[aeiouAEIOU]/
   true
 end
-else
-  false
-end
-end
 end
 
 
