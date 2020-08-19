@@ -25,7 +25,8 @@ end
 
 
 def valid_phone_number?(phone)
-if phone.scan(/\A[+-]?\d+(\.[\d]+)?\z/)
+  obj = obj.to_s unless obj.is_a? String
+if  /\A[+-]?\d+(\.[\d]+)?\z/.match obj
   true
 else
   false
